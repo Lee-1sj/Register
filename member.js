@@ -61,7 +61,6 @@ function memberPwPwCheck(state) {
       memberPwPwMessage.innerHTML = `ok.`;
       return true;
     } else {
-      //패턴검색
       memberPwPwMessage.innerHTML = `일치하지 않습니다.`;
       return false;
     }
