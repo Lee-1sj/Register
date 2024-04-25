@@ -53,7 +53,7 @@ td.content1 {
   font-size: 11px;
 }
 
-td>span {
+td > span {
   font-size: 8px;
 }
 
@@ -63,7 +63,6 @@ input {
   height: 27px;
   border-radius: 2px;
   background-color: #f4f4f4;
-
 }
 
 input.request {
@@ -72,7 +71,7 @@ input.request {
   background-position: top right;
 }
 
-table#one>tr#tr1>div {
+table#one > tr#tr1 > div {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
