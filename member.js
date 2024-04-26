@@ -177,7 +177,8 @@ function phoneCheck(state) {
 // 가입 버튼
 function allCheck(event) {
   if (memberIdCheck("blur") && memberPwCheck("blur") && memberPwPwCheck("blur") && memberNameCheck("blur") && nickNameCheck("blur") && emailCheck("blur") && phoneCheck("blur")) {
-    alert("가입 완료");
+    // alert(`id = ${document.querySelector("#memberId")}`);
+    alert("가입완료.");
     return true;
   } else {
     alert("작성 오류로 인해 가입에 실패하였습니다.");
